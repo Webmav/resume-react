@@ -40,7 +40,7 @@ div#one {
     width:700px;
     margin:0px 0px 0px 0px;
     padding:10px;
-    background-image:url(/Users/ehr/repos/phase-one/resume/img/Bg.jpg);
+    background-image:url(../img/Bg.jpg);
 }
 div#one div#h2 {
     height:auto;
