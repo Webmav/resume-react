@@ -1,0 +1,100 @@
+* {
+    height:auto;
+    width:auto;
+    background-color:white;
+    font-family:'Times New Roman', serif, sans-serif;
+    font-size:auto;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    background-color:rgb(178, 255, 255);
+}
+.inline {
+    display:inline-block;
+}
+
+
+nav {
+    height:50px;
+    width:700px;
+    margin:0px 0px 0px 0px;
+    padding:10px;
+    padding-left:50px;
+    background-color:aqua;
+}
+nav p {
+    display:inline-block;
+    background-color:aqua;
+}
+nav p.one {
+    margin-left:10px;
+    width:auto;
+    background-color:aqua;
+}
+nav h1 {
+    background-color:aqua;
+}
+
+div#one {
+    height:500px;
+    width:700px;
+    margin:0px 0px 0px 0px;
+    padding:10px;
+    background-image:url(/Users/ehr/repos/phase-one/resume/img/Bg.jpg);
+}
+div#one div#h2 {
+    height:auto;
+    width:auto;
+    margin-top:-100px;
+    background-color: rgba(0, 0, 0, 0);
+}
+div#one h2#one {
+    margin:300px auto auto 100px;
+    background-color:rgb(0,0,0,0);
+    color:white;
+}
+div#one h2#two {
+    margin:0px auto auto 120px;
+    background-color:rgb(0,0,0,0);
+    color:white;
+}
+
+div#one p {
+    margin:10px auto auto 75px;
+    background-color:rgb(0,0,0,0);
+    color:white;
+}
+div#one img {
+    height:auto;
+    width:45%;
+    margin:-250px auto auto 350px;
+}
+
+div#nav-p,
+div#nav-p.inline p a{
+    margin-top:0px;
+    padding:0px;
+    background-color:aqua;
+}
+p.inline {
+    margin: auto auto auto 60px;
+}
+div#nav-p.inline p a {
+    text-decoration:none;
+    color:black;
+}
+
+div.about-me,
+div.qualifications,
+div.experience,
+div.contacts {
+    height:auto;
+    width: 700px;
+    padding:10px;
+    margin:10px 0px 0px 0px;
+}
+div.contacts div p.inline {
+    margin-left:-100px;
+    padding:5px;
+    margin:auto auto auto auto;
+}
